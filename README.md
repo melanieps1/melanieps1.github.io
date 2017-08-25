@@ -1,6 +1,5 @@
 # Melanie Stoeckle
 Repo for Bootcamp Prework - Challenge 1
-------
 ## Social Profiles
 * [GitHub] (https://github.com/melanieps1 "GitHub")
 * [StackOverflow] (https://stackoverflow.com/users/8503249/melanieps1 "StackOverflow")
