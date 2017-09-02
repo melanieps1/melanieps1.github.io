@@ -43,3 +43,20 @@ figure {
 hr {
   margin: 24px;
 }
+
+h4 {
+  font-family: 'Merriweather', serif;
+  font-size: 12px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+#social-media {
+  font-size: 12px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #2196f3;
+}
