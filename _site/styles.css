@@ -13,7 +13,7 @@ nav {
   display: inline-block;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 8px 0 0 0;
 }
 
 .nav-item {
