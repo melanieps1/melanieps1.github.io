@@ -1,29 +1,29 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Melanie's About Me Page</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet" type="text/css">
-    <link href="styles.css" type="text/css" rel="stylesheet">
-  </head>
-  <body>
-    <h1>A Little Bit About Me</h1>
-    <div class="about-main">
-      <figure>
-        <img src="melanie-glacier-np.jpg" alt="Melanie at Glacier National Park"/>
-        <figcaption>Hiking in Glacier National Park this summer.</figcaption>
-      </figure>
-      <br>
-      <p>Hi there!  I'm Melanie, and I like being creative and traveling.</p>
-      <br>
-      <p>I just moved back to Lexington, Kentucky from Boulder, Colorado.  I enjoy hiking, camping and mountain biking after work and on the weekends, and exploring new corners of the world as much as possible. I've backpacked through 26 countries so far and have visited all 50 US states, always with plans to go and explore more.</p>
-      <br>
-      <p>Being a part of the Awesome Inc U coding bootcamp this fall is a really exciting experience!  I originally started out as a UX designer but turned into a Product Owner for a tech company last year.  Now, onto learning the engineering side of things!  I can't wait to see where this will lead me next.</p>
-  </div>
-<hr>
-  <div class="footer">
-    <h4>Follow me</h4>
-    <p id="social-media"><a href="https://github.com/melanieps1" target=_blank>GitHub</a> | <a href="https://stackoverflow.com/users/8503249/melanieps1" target=_blank>StackOverflow</a> | <a href="https://www.linkedin.com/in/melaniestoeckle" target=_blank>LinkedIn</a> | <a href="https://www.instagram.com/melanieps1/" target=_blank>Instagram</a> | <a href="https://dribbble.com/melanieps1" target=_blank>Dribbble</a></p>
-  </div>
-  </body>
-</html>
+---
+layout: default
+title: A Little Bit About Melanie
+---
+
+<div class="about-main">
+  <h1>{{ page.title }}</h1>
+  <figure>
+    <img src="/images/melanie-glacier-np.jpg" alt="Melanie at Glacier National Park"/>
+    <figcaption>Hiking in Glacier National Park this summer.</figcaption>
+  </figure>
+  <br>
+  <p>Hi there!  I'm Melanie, and I like being creative and traveling.</p>
+  <br>
+  <p>I just moved back to Lexington, Kentucky from Boulder, Colorado.  I enjoy hiking, camping and mountain biking after work and on the weekends, and exploring new corners of the world as much as possible. I've backpacked through 26 countries so far and have visited all 50 US states, always with plans to go and explore more.</p>
+  <br>
+  <p>Being a part of the Awesome Inc U coding bootcamp this fall is a really exciting experience!  I originally started out as a UX designer but turned into a Product Owner for a tech company last year.  Now, onto learning the engineering side of things!  I can't wait to see where this will lead me next.</p>
+  
+  <hr>
+
+  <h2>See my blog posts</h2>
+	  <ul class="blog-posts">
+	  {% for post in site.posts %}
+	    <li><span>{{ post.date | date_to_string }}</span> &raquo;
+	      <a href="{{ post.url }}">{{ post.title }}</a>
+	    </li>
+	  {% endfor %}
+	</ul>
+</div>
