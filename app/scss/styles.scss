@@ -1,32 +1,61 @@
+//colors
+$color_background: #f3f6f7;
+$color_shadow: rgba(34, 34, 34, 0.2);
+$color_text: #222;
+$color_link: #2196f3;
+$color_link-hover: #1875bf;
+$color_DarkSlateGray: DarkSlateGray;
+$color_DarkGray: DarkGrey;
+
+//fonts
+$font_open-sans: "Open Sans";
+$font_sans-serif: "sans-serif";
+$font_merriweather: "Merriweather";
+$font_serif: "serif";
+
+// * {
+//   border-style: solid;
+//   color: black;
+// }
+
 body {
-  background-color: #f3f6f7;
+  background-color: $color_background;
+  position: relative;
+  margin: 0;
+  padding-bottom: 40px;
+  min-height: 100%;
 }
 
-nav {
-  display: inline-block;
+header {
+  background-color: $color_background;
+  // box-shadow: 0 2px 5px 0 $color_shadow;
+  display: block;
   list-style-type: none;
   margin: 0;
-  padding: 8px 0 0 0;
+  min-height: 50px;
+  padding: 8px 0 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .nav-item {
-  color: #222;
-  font-family: 'Open Sans', sans-serif;
+  color: $color_text;
+  font-family: $font_open-sans, $font_sans-serif;
   font-size: 14px;
   font-weight: bold;
   padding: 12px;
   text-align: center;
   text-decoration: none;
-}
-
-.nav-item:hover {
-  color: #2196f3;
+  &:hover {
+    color: $color_link;
+  }
 }
 
 h1 {
-  color: DarkSlateGray;
+  color: $color_DarkSlateGray;
   display: block;
-  font-family: 'Merriweather', serif;
+  font-family: $font_merriweather, $font_serif;
   font-size: 24px;
   font-weight: 700;
   margin: 24px 0;
@@ -34,7 +63,7 @@ h1 {
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
+  font-family: $font_open-sans, $font_sans-serif;
   font-size: 16px;
   line-height: 1.5;
   margin: 0 250px;
@@ -49,8 +78,8 @@ img {
 
 figure {
   display: block;
-  font-color: DarkGrey;
-  font-family: 'Open Sans', sans-serif;
+  font-color: $color_DarkGray;
+  font-family: $font_open-sans, $font_sans-serif;
   font-size: 14px;
   font-style: italic;
   margin: 0 auto;
@@ -58,18 +87,23 @@ figure {
 }
 
 .about-main {
-  color: #222;
+  color: $color_text;
+  padding: 40px;
 }
 
-hr {
-  margin: 24px;
-}
+// hr {
+//   margin: 24px;
+// }
 
 h4 {
-  font-family: 'Merriweather', serif;
+  font-family: $font_merriweather, $font_serif;
   font-size: 12px;
   margin-bottom: 12px;
   text-align: center;
+}
+
+#resume {
+  padding: 40px 0;
 }
 
 #social-media {
@@ -77,11 +111,20 @@ h4 {
   text-align: center;
 }
 
-.footer-links {
-  color: #2196f3;
-  text-decoration: none;
+.footer {
+  background-color: $color_background;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  position: absolute;
+  right: 0;
+  text-align: center;
 }
 
-.footer-links:hover {
-  color: #1875bf;
+.footer-links {
+  color: $color_link;
+  text-decoration: none;
+  &:hover {
+    color: $color_link-hover;
+  }
 }
