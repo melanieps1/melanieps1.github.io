@@ -1,59 +1,68 @@
 /* Shortcut for a CSS comment is is CMD + `/` */
 
+/** {
+  border-style: solid;
+  border-color: black;
+}*/
+
 body {
   background-color: #f3f6f7;
 }
 
-.nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background: DarkSlateGray;
+nav {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-item {
+  color: #222;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  color: white;
-  text-align: center;
+  font-size: 14px;
   font-weight: bold;
-  padding: 8px;
-  display: inline;
+  padding: 12px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  color: #2196f3;
 }
 
 h1 {
+  color: DarkSlateGray;
+  display: block;
   font-family: 'Merriweather', serif;
   font-size: 24px;
   font-weight: 700;
-  text-align: center;
   margin: 24px 0;
-  color: DarkSlateGray;
+  text-align: center;
 }
 
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
+  line-height: 1.5;
+  margin: 0 250px;
   max-width: 100%;
   text-align: center;
-  margin: 0 250px;
-  line-height: 1.5;
 }
 
 img {
-  width: 500px;
   display: block;
   margin: 0 auto;
+  width: 500px;
 }
 
 figure {
   display: block;
-  text-align: center;
-  margin: 0 auto;
+  font-color: DarkGrey;
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
   font-style: italic;
-  font-color: DarkGrey;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .about-main {
@@ -76,11 +85,11 @@ h4 {
   text-align: center;
 }
 
-a {
-  text-decoration: none;
+.footer-links {
   color: #2196f3;
+  text-decoration: none;
 }
 
-a:hover {
+.footer-links:hover {
   color: #1875bf;
 }
