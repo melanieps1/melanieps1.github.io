@@ -25,7 +25,7 @@ header {
   text-align: center;
   text-decoration: none; }
   .nav-item:hover {
-    color: #2196f3; }
+    color: #61baab; }
 
 h1 {
   color: DarkSlateGray;
@@ -35,6 +35,15 @@ h1 {
   font-weight: 700;
   margin: 24px 0;
   text-align: center; }
+
+#blog-h1 {
+  padding: 40px 0 0 0; }
+
+h2 {
+  color: #222;
+  font-family: "Open Sans";
+  font-size: 20px;
+  margin: 24px 0; }
 
 p {
   font-family: "Open Sans", "sans-serif";
@@ -61,7 +70,11 @@ figure {
   color: #222;
   padding: 40px; }
 
+.blog-main {
+  padding: 40px; }
+
 h4 {
+  color: #fff;
   font-family: "Merriweather", "serif";
   font-size: 12px;
   margin-bottom: 12px;
@@ -71,11 +84,12 @@ h4 {
   padding: 40px 0; }
 
 #social-media {
+  color: #fff;
   font-size: 12px;
   text-align: center; }
 
 .footer {
-  background-color: #f3f6f7;
+  background-color: #f27171;
   bottom: 0;
   left: 0;
   padding: 1rem;
@@ -84,7 +98,7 @@ h4 {
   text-align: center; }
 
 .footer-links {
-  color: #2196f3;
+  color: #fff;
   text-decoration: none; }
   .footer-links:hover {
-    color: #1875bf; }
+    color: #fff; }

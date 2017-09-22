@@ -1,11 +1,13 @@
 //colors
+$color_accent: #f27171;
 $color_background: #f3f6f7;
+$color_DarkGray: DarkGrey;
+$color_DarkSlateGray: DarkSlateGray;
+$color_link: #61baab;
+$color_link-hover: #387c71;
 $color_shadow: rgba(34, 34, 34, 0.2);
 $color_text: #222;
-$color_link: #2196f3;
-$color_link-hover: #1875bf;
-$color_DarkSlateGray: DarkSlateGray;
-$color_DarkGray: DarkGrey;
+$color_white: #fff;
 
 //fonts
 $font_open-sans: "Open Sans";
@@ -62,6 +64,17 @@ h1 {
   text-align: center;
 }
 
+#blog-h1 {
+  padding: 40px 0 0 0;
+}
+
+h2 {
+  color: $color_text;
+  font-family: $font_open-sans;
+  font-size: 20px;
+  margin: 24px 0;
+}
+
 p {
   font-family: $font_open-sans, $font_sans-serif;
   font-size: 16px;
@@ -91,11 +104,16 @@ figure {
   padding: 40px;
 }
 
+.blog-main {
+  padding: 40px;
+}
+
 // hr {
 //   margin: 24px;
 // }
 
 h4 {
+  color: $color_white;
   font-family: $font_merriweather, $font_serif;
   font-size: 12px;
   margin-bottom: 12px;
@@ -107,12 +125,13 @@ h4 {
 }
 
 #social-media {
+  color: $color_white;
   font-size: 12px;
   text-align: center;
 }
 
 .footer {
-  background-color: $color_background;
+  background-color: $color_accent;
   bottom: 0;
   left: 0;
   padding: 1rem;
@@ -122,9 +141,9 @@ h4 {
 }
 
 .footer-links {
-  color: $color_link;
+  color: $color_white;
   text-decoration: none;
   &:hover {
-    color: $color_link-hover;
+    color: $color_white;
   }
 }
