@@ -1,19 +1,20 @@
 //colors
-$color_accent: #f27171;
-$color_background: #f3f6f7;
-$color_DarkGray: DarkGrey;
-$color_DarkSlateGray: DarkSlateGray;
-$color_link: #61baab;
-$color_link-hover: #387c71;
-$color_shadow: rgba(34, 34, 34, 0.2);
-$color_text: #222;
-$color_white: #fff;
+$c-accent: #f27171;
+$c-bg: #f3f6f7;
+$c-link: #61baab;
+$c-link-hover: #387c71;
+$c-text: #222;
+$c-white: #fff;
+
+$c-DarkGray: DarkGrey;
+$c-DarkSlateGray: DarkSlateGray;
 
 //fonts
 $font_open-sans: "Open Sans";
 $font_sans-serif: "sans-serif";
 $font_merriweather: "Merriweather";
 $font_serif: "serif";
+
 
 // * {
 //   border-style: solid;
@@ -25,7 +26,7 @@ html {
 }
 
 body {
-  background-color: $color_background;
+  background-color: $c-bg;
   display: flex;
   flex-direction: column;
   height: 100vh; /* Avoids the IE 10-11 `min-height` bug. */
@@ -36,28 +37,34 @@ body {
 }
 
 header {
-  background-color: $color_background;
-  // box-shadow: 0 2px 5px 0 $color_shadow;
+  background-color: $c-white;
+  box-shadow: 0 1px 5px 0 rgba(34, 34, 34, 0.2);
   display: block;
   list-style-type: none;
   margin: 0;
   min-height: 50px;
-  padding: 8px 0 0;
+  padding: 0;
   position: fixed;
   top: 0;
   width: 100%;
 }
 
+#logo {
+  float: left;
+  padding: 12px 24px;
+}
+
 .nav-item {
-  color: $color_text;
+  color: $c-text;
   font-family: $font_open-sans, $font_sans-serif;
   font-size: 14px;
   font-weight: bold;
-  padding: 12px;
+  line-height: 50px;
+  padding: 0 12px;
   text-align: center;
   text-decoration: none;
   &:hover {
-    color: $color_link;
+    color: $c-link;
   }
 }
 
@@ -67,7 +74,7 @@ header {
 }
 
 h1 {
-  color: $color_DarkSlateGray;
+  color: $c-DarkSlateGray;
   display: block;
   font-family: $font_merriweather, $font_serif;
   font-size: 24px;
@@ -77,18 +84,10 @@ h1 {
 }
 
 h2 {
-  color: $color_text;
+  color: $c-text;
   font-family: $font_open-sans;
   font-size: 20px;
   margin: 24px 0;
-}
-
-h4 {
-  color: $color_white;
-  font-family: $font_merriweather, $font_serif;
-  font-size: 12px;
-  margin-bottom: 12px;
-  text-align: center;
 }
 
 p {
@@ -107,7 +106,7 @@ img {
 
 figure {
   display: block;
-  font-color: $color_DarkGray;
+  font-color: $c-DarkGray;
   font-family: $font_open-sans, $font_sans-serif;
   font-size: 14px;
   font-style: italic;
@@ -116,34 +115,56 @@ figure {
 }
 
 .main {
-  color: $color_text;
+  color: $c-text;
   padding: 40px;
 }
 
-#resume {
-  padding: 40px 0;
+#home-main {
+  background-color: $c-white;
+}
+
+#resume-main {
+  padding: 40px;
+}
+
+.main-title {
+  color: $c-text;
+  font-family: $font_open-sans, $font_sans-serif;
+  font-weight: 700;
+  font-size: 60px;
 }
 
 .footer {
-  background-color: $color_accent;
+  background-color: $c-accent;
   bottom: 0;
   flex-shrink: 0;
   left: 0;
-  padding: 20px;
+  min-height: 40px;
+  padding: 8px;
   right: 0;
   text-align: center;
 }
 
-#social-media {
-  color: $color_white;
-  font-size: 12px;
-  text-align: center;
-}
-
-.footer-links {
-  color: $color_white;
-  text-decoration: none;
-  &:hover {
-    color: $color_white;
+  .social-media {
+    color: $c-white;
+    float: right;
+    padding: 12px 24px 0 0;
+    text-align: center;
   }
-}
+
+  .footer-text {
+    color: $c-white;
+    float: left;
+    font-size: 12px;
+    margin-left: 24px;
+    padding: 12px 0;
+  }
+
+  .footer-links {
+    color: $c-white;
+    padding: 6px;
+    text-decoration: none;
+    &:hover {
+      color: $c-white;
+    }
+  }
