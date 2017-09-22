@@ -76,15 +76,19 @@ h1 {
   text-align: center;
 }
 
-#blog-h1 {
-  padding: 40px 0 0 0;
-}
-
 h2 {
   color: $color_text;
   font-family: $font_open-sans;
   font-size: 20px;
   margin: 24px 0;
+}
+
+h4 {
+  color: $color_white;
+  font-family: $font_merriweather, $font_serif;
+  font-size: 12px;
+  margin-bottom: 12px;
+  text-align: center;
 }
 
 p {
@@ -111,21 +115,9 @@ figure {
   text-align: center;
 }
 
-.about-main {
+.main {
   color: $color_text;
   padding: 40px;
-}
-
-.blog-main {
-  padding: 40px;
-}
-
-h4 {
-  color: $color_white;
-  font-family: $font_merriweather, $font_serif;
-  font-size: 12px;
-  margin-bottom: 12px;
-  text-align: center;
 }
 
 #resume {

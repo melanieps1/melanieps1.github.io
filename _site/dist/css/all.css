@@ -48,14 +48,18 @@ h1 {
   margin: 24px 0;
   text-align: center; }
 
-#blog-h1 {
-  padding: 40px 0 0 0; }
-
 h2 {
   color: #222;
   font-family: "Open Sans";
   font-size: 20px;
   margin: 24px 0; }
+
+h4 {
+  color: #fff;
+  font-family: "Merriweather", "serif";
+  font-size: 12px;
+  margin-bottom: 12px;
+  text-align: center; }
 
 p {
   font-family: "Open Sans", "sans-serif";
@@ -78,19 +82,9 @@ figure {
   margin: 0 auto;
   text-align: center; }
 
-.about-main {
+.main {
   color: #222;
   padding: 40px; }
-
-.blog-main {
-  padding: 40px; }
-
-h4 {
-  color: #fff;
-  font-family: "Merriweather", "serif";
-  font-size: 12px;
-  margin-bottom: 12px;
-  text-align: center; }
 
 #resume {
   padding: 40px 0; }
