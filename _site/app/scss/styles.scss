@@ -20,8 +20,15 @@ $font_serif: "serif";
 //   color: black;
 // }
 
+html {
+  height: 100%;
+}
+
 body {
   background-color: $color_background;
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Avoids the IE 10-11 `min-height` bug. */
   position: relative;
   margin: 0;
   padding-bottom: 40px;
@@ -52,6 +59,11 @@ header {
   &:hover {
     color: $color_link;
   }
+}
+
+.content {
+  flex: 1 0 auto; /* Prevents Chrome and Safari from letting these items shrink past their content's default min size. */
+  padding: 20px;
 }
 
 h1 {
@@ -108,10 +120,6 @@ figure {
   padding: 40px;
 }
 
-// hr {
-//   margin: 24px;
-// }
-
 h4 {
   color: $color_white;
   font-family: $font_merriweather, $font_serif;
@@ -124,19 +132,19 @@ h4 {
   padding: 40px 0;
 }
 
-#social-media {
-  color: $color_white;
-  font-size: 12px;
-  text-align: center;
-}
-
 .footer {
   background-color: $color_accent;
   bottom: 0;
+  flex-shrink: 0;
   left: 0;
-  padding: 1rem;
-  position: absolute;
+  padding: 20px;
   right: 0;
+  text-align: center;
+}
+
+#social-media {
+  color: $color_white;
+  font-size: 12px;
   text-align: center;
 }
 
