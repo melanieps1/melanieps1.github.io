@@ -6,7 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  /* Avoids the IE 10-11 `min-height` bug. */
+  /* Avoids the IE 10-11 `min-height` bug... */
   position: relative;
   margin: 0;
   padding-bottom: 40px;
@@ -83,8 +83,7 @@ figure {
   text-align: center; }
 
 .main {
-  color: #222;
-  padding: 40px; }
+  color: #222; }
 
 #home-main {
   background-color: #fff; }
