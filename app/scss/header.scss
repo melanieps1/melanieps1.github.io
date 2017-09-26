@@ -1,0 +1,47 @@
+//colors
+$c-accent: #f27171;
+$c-bg: #f3f6f7;
+$c-link: #61baab;
+$c-link-hover: #387c71;
+$c-text: #222;
+$c-white: #fff;
+
+$c-DarkGray: DarkGrey;
+$c-DarkSlateGray: DarkSlateGray;
+
+//fonts
+$f-main: "Roboto";
+$f-open-sans: "Open Sans";
+$f-merriweather: "Merriweather";
+
+header {
+  background-color: $c-white;
+  box-shadow: 0 1px 5px 0 rgba(34, 34, 34, 0.2);
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  min-height: 50px;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#logo {
+  float: left;
+  padding: 12px 24px;
+}
+
+.nav-item {
+  color: $c-text;
+  font-family: $f-open-sans, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 50px;
+  padding: 0 12px;
+  text-align: center;
+  text-decoration: none;
+  &:hover {
+    color: $c-link;
+  }
+}
