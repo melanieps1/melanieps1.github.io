@@ -1,0 +1,29 @@
+.footer {
+  background-color: #f27171;
+  bottom: 0;
+  flex-shrink: 0;
+  left: 0;
+  min-height: 40px;
+  padding: 8px;
+  right: 0;
+  text-align: center; }
+
+.footer-text {
+  color: #fff;
+  float: left;
+  font-size: 12px;
+  margin-left: 24px;
+  margin-top: 12px; }
+
+.footer-links {
+  color: #fff;
+  padding: 6px;
+  text-decoration: none; }
+  .footer-links:hover {
+    color: #fff; }
+
+.social-media {
+  color: #fff;
+  float: right;
+  padding: 12px 24px 0 0;
+  text-align: center; }
