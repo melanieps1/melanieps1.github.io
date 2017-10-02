@@ -9,7 +9,6 @@ $c-link-hover: #58ad9f;
 $c-text: #222;
 $c-white: #fff;
 
-$c-DarkGray: DarkGrey;
 $c-DarkSlateGray: DarkSlateGray;
 
 //fonts
@@ -31,12 +30,12 @@ body {
   background-color: $c-bg;
   display: flex;
   flex-direction: column;
+  height: 100%;
   height: 100vh; /* Avoids the IE 10-11 `min-height` bug... */
   margin: 0;
   min-height: 100%;
   padding-bottom: 40px;
   position: relative;
-  
 }
 
 .content {
@@ -64,10 +63,15 @@ h2 {
 
 p {
   font-family: $f-main, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   // line-height: 1.5;
   max-width: 100%;
   text-align: center;
+}
+
+.description {
+  font-style: italic;
+  text-align: left;
 }
 
 img {
@@ -75,9 +79,18 @@ img {
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+  color: $c-link;
+  &:hover {
+      color: $c-link-hover;
+      cursor: pointer;
+    }
+}
+
 figure {
   display: block;
-  font-color: $c-DarkGray;
+  font-color: $c-gray;
   font-family: $f-open-sans, sans-serif;
   font-size: 14px;
   font-style: italic;
@@ -95,8 +108,15 @@ figure {
 
 
 #home-content {
-  background-color: $c-white;
+  background-color: $c-bg;
+  height: 90%;
 }
+
+  #home-main {
+    text-align: center;
+    display: inline;
+    margin: auto;
+  }
 
   .main-title {
     color: $c-text;
@@ -110,7 +130,7 @@ figure {
   }
 
   .homepage-btn {
-  background: $c-link;
+  background: $c-text;
   border: none;
   border-radius: 2px;
   color: $c-white;
@@ -119,12 +139,25 @@ figure {
   padding: 8px 16px;
   text-decoration: none;
     &:hover {
-      background: $c-link-hover;
+      background: #3d3d3d;
       cursor: pointer;
     }
   }
 
 #about-main {
-  background-color: $c-gray-light;
-  width: 100%;
+  background-color: $c-bg;
+  width: 80%;
+  margin: auto;
 }
+
+#blog-main {
+  background-color: $c-bg;
+  width: 80%;
+  margin: auto;
+}
+
+  .blog-list {
+    color: $c-text;
+    font-family: $f-main, sans-serif;
+    font-size: 14px;
+  }
