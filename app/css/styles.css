@@ -113,4 +113,6 @@ figure {
 .blog-list {
   color: #222;
   font-family: "Roboto", sans-serif;
-  font-size: 14px; }
+  font-size: 14px;
+  list-style-type: none;
+  padding: 0; }
