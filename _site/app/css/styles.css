@@ -39,6 +39,12 @@ p {
   max-width: 100%;
   text-align: center; }
 
+ul {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  max-width: 100%;
+  text-align: left; }
+
 .description {
   font-style: italic;
   text-align: left; }

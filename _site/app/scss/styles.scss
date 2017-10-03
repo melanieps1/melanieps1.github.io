@@ -69,6 +69,14 @@ p {
   text-align: center;
 }
 
+ul {
+  font-family: $f-main, sans-serif;
+  font-size: 14px;
+  // line-height: 1.5;
+  max-width: 100%;
+  text-align: left;
+}
+
 .description {
   font-style: italic;
   text-align: left;
