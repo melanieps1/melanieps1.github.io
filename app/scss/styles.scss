@@ -39,18 +39,20 @@ body {
 }
 
 .content {
+  background-color: $c-bg;
   flex: 1 0 auto; /* Prevents Chrome and Safari from letting these items shrink past their content's default min size. */
   // padding: 20px;
+  height: 90%;
 }
 
 h1 {
-  color: $c-DarkSlateGray;
+  color: $c-text;
   display: block;
-  font-family: $f-merriweather, serif;
+  font-family: $f-main, sans-serif;
   font-size: 24px;
   font-weight: 700;
   margin: 24px 0;
-  padding: 64px 0 0 0;
+  // padding: 64px 0 0 0;
   text-align: center;
 }
 
@@ -106,24 +108,27 @@ figure {
   text-align: center;
 }
 
-.main {
-  color: $c-text;
-}
-
 #resume-main {
-  padding: 40px;
+  background: $c-bg;
+  padding: 94px 0 40px 0;
 }
 
-
-#home-content {
-  background-color: $c-bg;
-  height: 90%;
+.main {
+  background: $c-white;
+  padding: 24px 0 64px 0;
+  // height: 75%;
 }
+
+// #home-content {
+//   background-color: $c-bg;
+//   height: 90%;
+// }
 
   #home-main {
-    text-align: center;
-    display: inline;
+    background: $c-white;
     margin: auto;
+    padding: 80px;
+    text-align: center;
   }
 
   .main-title {
@@ -131,10 +136,7 @@ figure {
     font-family: $f-main, sans-serif;
     font-weight: 700;
     font-size: 60px;
-  }
-
-  .homepage-btn-div {
-    text-align: center;
+    padding: 64px 0 16px 0;
   }
 
   .homepage-btn {
@@ -145,6 +147,7 @@ figure {
   font-size: 12px;
   font-weight: 700;
   padding: 8px 16px;
+  text-align: center;
   text-decoration: none;
     &:hover {
       background: #3d3d3d;
@@ -153,10 +156,19 @@ figure {
   }
 
 #about-main {
-  background-color: $c-bg;
-  width: 80%;
+  background-color: $c-gray-light;
   margin: auto;
+  text-align: center;
+  width: 100%;
 }
+
+  .aboutPara {
+    float: left;
+    font-family: $f-main, sans-serif;
+    font-size: 14px;
+    max-width: 66%;
+    text-align: left;
+  }
 
 #blog-main {
   background-color: $c-bg;
