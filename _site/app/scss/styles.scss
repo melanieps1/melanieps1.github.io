@@ -9,8 +9,6 @@ $c-link-hover: #58ad9f;
 $c-text: #222;
 $c-white: #fff;
 
-$c-DarkSlateGray: DarkSlateGray;
-
 //fonts
 $f-main: "Roboto";
 $f-open-sans: "Open Sans";
@@ -178,6 +176,9 @@ figure {
 
 #contact-main {
   background-color: $c-white;
+  margin: auto;
+  padding: 24px 0;
+  text-align: center;
   width: 100%;
 }
 
@@ -194,10 +195,9 @@ figure {
         font-family: $f-main, sans-serif;
         font-size: 14px;
       }
-  }
-
-  form textarea {
-    height: 200px;
+      &:active {
+        outline: none;
+      }
   }
 
   form input[type="text"], form input[type="email"] {
