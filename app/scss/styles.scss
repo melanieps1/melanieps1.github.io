@@ -97,6 +97,13 @@ a {
     }
 }
 
+code {
+  background-color: #ccc;
+  border-radius: 2px;
+  padding: 12px;
+  text-align: left;
+}
+
 .main {
   background: $c-white;
   display: block;
@@ -250,4 +257,9 @@ a {
     font-size: 14px;
     list-style-type: none;
     padding: 0;
+  }
+
+  .post-main {
+    background-color: $c-bg;
+    margin: 24px;
   }

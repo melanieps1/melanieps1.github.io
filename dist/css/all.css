@@ -125,6 +125,12 @@ a {
     color: #58ad9f;
     cursor: pointer; }
 
+code {
+  background-color: #ccc;
+  border-radius: 2px;
+  padding: 12px;
+  text-align: left; }
+
 .main {
   background: #fff;
   display: block;
@@ -256,3 +262,7 @@ form textarea {
   font-size: 14px;
   list-style-type: none;
   padding: 0; }
+
+.post-main {
+  background-color: #f3f6f7;
+  margin: 24px; }
