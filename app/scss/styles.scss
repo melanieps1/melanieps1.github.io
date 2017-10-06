@@ -184,20 +184,31 @@ a {
   }
 
   .shortForm {
-    margin: 12px;
-    width: 586px;
+    min-width: 90%;
   }
 
-  form input[type="text"], form input[type="email"] {
+  form input[type="text"] {
     color: $c-text;
     font-family: $f-main, sans-serif;
     font-size: 14px;
+    margin: 0;
+    margin-right: 12px;
+    width: 45%
+  }
+
+  form input[type="email"] {
+    color: $c-text;
+    font-family: $f-main, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    margin-left: 12px;
+    width: 45%
   }
 
   form textarea {
     height: 150px;
     margin: auto;
-    min-width: 1200px;
+    min-width: 91%;
   }
 
   .submitBtn {
@@ -220,6 +231,11 @@ a {
 #resume-main {
   background: $c-bg;
   padding: 64px 0 40px 0;
+}
+
+#projects-main {
+  background-color: $c-white;
+  height: 100%;
 }
 
 #blog-main {
