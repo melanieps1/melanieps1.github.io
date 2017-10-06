@@ -60,6 +60,9 @@ nav {
   .nav-item:hover {
     color: #61baab; }
 
+.contactLink {
+  color: #f27171; }
+
 html {
   height: 100%; }
 
