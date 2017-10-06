@@ -40,7 +40,7 @@ body {
   background-color: $c-bg;
   flex: 1 0 auto; /* Prevents Chrome and Safari from letting these items shrink past their content's default min size. */
   // padding: 20px;
-  height: 90%;
+  // height: 90%;
 }
 
 h1 {
@@ -56,9 +56,12 @@ h1 {
 
 h2 {
   color: $c-text;
-  font-family: $f-open-sans;
-  font-size: 20px;
-  margin: 24px 0;
+  display: block;
+  font-family: $f-main, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 24px 0;
+  text-align: center;
 }
 
 p {
@@ -94,23 +97,15 @@ a {
     }
 }
 
-figure {
-  display: block;
-  font-color: $c-gray;
-  font-family: $f-open-sans, sans-serif;
-  font-size: 14px;
-  font-style: italic;
-  margin: 0 auto;
-  text-align: center;
-}
-
 .main {
   background: $c-white;
+  display: block;
   padding: 24px 0;
 }
 
   #home-main {
     background: $c-white;
+    height: 750px;
     margin: auto;
     // padding: 80px;
     text-align: center;
@@ -121,7 +116,8 @@ figure {
     font-family: $f-main, sans-serif;
     font-weight: 700;
     font-size: 60px;
-    padding: 64px 0 16px 0;
+    margin: auto;
+    padding: 220px 0 16px 0;
   }
 
   .homepage-btn {
@@ -131,6 +127,7 @@ figure {
   color: $c-white;
   font-size: 12px;
   font-weight: 700;
+  margin-bottom: 24px;
   padding: 8px 16px;
   text-align: center;
   text-decoration: none;
@@ -143,27 +140,27 @@ figure {
 #about-main {
   background-color: $c-gray-light;
   margin: auto;
-  padding: 24px 0;
+  padding: 24px 0 40px 0;
   text-align: center;
   width: 100%;
 }
-
-  .aboutTitle {
-    margin: 0;
-  }
 
   .aboutPara {
     float: left;
     font-family: $f-main, sans-serif;
     font-size: 14px;
     margin: 24px 40px;
-    // max-width: 66%;
+    max-width: 66%;
     text-align: left;
+  }
+
+  #aboutImage {
+    display: inline;
   }
 
 #contact-main {
   background-color: $c-white;
-  margin-bottom: 24px;
+  margin-bottom: 0;
   padding: 24px 0 40px 0;
   text-align: center;
   width: 100%;
@@ -188,7 +185,7 @@ figure {
 
   .shortForm {
     margin: 12px;
-    width: 300px;
+    width: 586px;
   }
 
   form input[type="text"], form input[type="email"] {
@@ -198,7 +195,7 @@ figure {
   }
 
   form textarea {
-    // height: 200px; // Breaks footer :(
+    height: 150px;
     margin: auto;
     min-width: 1200px;
   }
@@ -210,7 +207,7 @@ figure {
   color: $c-white;
   font-size: 12px;
   font-weight: 700;
-  margin: 12px auto;
+  margin: 24px auto 0;
   padding: 8px 16px;
   text-align: center;
   text-decoration: none;

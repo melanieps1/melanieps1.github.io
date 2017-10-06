@@ -29,8 +29,13 @@ header {
   padding: 12px 24px;
 }
 
+nav {
+  margin-right: 24px;
+}
+
 .nav-item {
   color: $c-text;
+  float: right;
   font-family: $f-open-sans, sans-serif;
   font-size: 14px;
   font-weight: bold;

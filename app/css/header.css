@@ -14,8 +14,12 @@ header {
   float: left;
   padding: 12px 24px; }
 
+nav {
+  margin-right: 24px; }
+
 .nav-item {
   color: #222;
+  float: right;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: bold;
