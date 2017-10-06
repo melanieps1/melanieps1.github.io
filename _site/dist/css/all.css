@@ -183,6 +183,27 @@ figure {
   background-color: #fff;
   width: 100%; }
 
+form input, form textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 24px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; }
+  form input::placeholder, form textarea::placeholder {
+    color: #d6d7d8;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px; }
+
+form textarea {
+  height: 200px; }
+
+form input[type="text"], form input[type="email"] {
+  color: #222;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px; }
+
 .submitBtn {
   background: #222;
   border: none;
@@ -190,6 +211,7 @@ figure {
   color: #fff;
   font-size: 12px;
   font-weight: 700;
+  margin-left: 24px;
   padding: 8px 16px;
   text-align: center;
   text-decoration: none; }

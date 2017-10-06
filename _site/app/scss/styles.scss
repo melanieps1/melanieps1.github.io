@@ -181,6 +181,31 @@ figure {
   width: 100%;
 }
 
+  form input, form textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 24px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+      &::placeholder {
+        color: $c-gray;
+        font-family: $f-main, sans-serif;
+        font-size: 14px;
+      }
+  }
+
+  form textarea {
+    height: 200px;
+  }
+
+  form input[type="text"], form input[type="email"] {
+    color: $c-text;
+    font-family: $f-main, sans-serif;
+    font-size: 14px;
+  }
+
   .submitBtn {
   background: $c-text;
   border: none;
@@ -188,6 +213,7 @@ figure {
   color: $c-white;
   font-size: 12px;
   font-weight: 700;
+  margin-left: 24px;
   padding: 8px 16px;
   text-align: center;
   text-decoration: none;
