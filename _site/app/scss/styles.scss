@@ -51,7 +51,7 @@ h1 {
   font-family: $f-main, sans-serif;
   font-size: 24px;
   font-weight: 700;
-  margin: 24px 0;
+  margin: 54px 0 24px 0;
   // padding: 64px 0 0 0;
   text-align: center;
 }
@@ -110,12 +110,12 @@ figure {
 
 #resume-main {
   background: $c-bg;
-  padding: 94px 0 40px 0;
+  padding: 64px 0 40px 0;
 }
 
 .main {
   background: $c-white;
-  padding: 24px 0 64px 0;
+  padding: 24px 0;
   // height: 75%;
 }
 
@@ -127,7 +127,7 @@ figure {
   #home-main {
     background: $c-white;
     margin: auto;
-    padding: 80px;
+    // padding: 80px;
     text-align: center;
   }
 
@@ -158,17 +158,45 @@ figure {
 #about-main {
   background-color: $c-gray-light;
   margin: auto;
+  padding: 24px 0;
   text-align: center;
   width: 100%;
 }
+
+  .aboutTitle {
+    margin: 0;
+  }
 
   .aboutPara {
     float: left;
     font-family: $f-main, sans-serif;
     font-size: 14px;
-    max-width: 66%;
+    margin: 24px 40px;
+    // max-width: 66%;
     text-align: left;
   }
+
+#contact-main {
+  background-color: $c-white;
+  width: 100%;
+}
+
+  .submitBtn {
+  background: $c-text;
+  border: none;
+  border-radius: 2px;
+  color: $c-white;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+    &:hover {
+      background: #3d3d3d;
+      cursor: pointer;
+    }
+  }
+
 
 #blog-main {
   background-color: $c-bg;
