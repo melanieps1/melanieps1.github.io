@@ -70,10 +70,6 @@ figure {
   margin: 0 auto;
   text-align: center; }
 
-#resume-main {
-  background: #f3f6f7;
-  padding: 64px 0 40px 0; }
-
 .main {
   background: #fff;
   padding: 24px 0; }
@@ -123,10 +119,12 @@ figure {
 
 #contact-main {
   background-color: #fff;
+  margin-bottom: 24px;
+  padding: 24px 0 40px 0;
+  text-align: center;
   width: 100%; }
 
 form input, form textarea {
-  width: 100%;
   padding: 12px 20px;
   margin: 8px 24px;
   display: inline-block;
@@ -137,14 +135,21 @@ form input, form textarea {
     color: #d6d7d8;
     font-family: "Roboto", sans-serif;
     font-size: 14px; }
+  form input:active, form textarea:active {
+    outline: none; }
 
-form textarea {
-  height: 200px; }
+.shortForm {
+  margin: 12px;
+  width: 300px; }
 
 form input[type="text"], form input[type="email"] {
   color: #222;
   font-family: "Roboto", sans-serif;
   font-size: 14px; }
+
+form textarea {
+  margin: auto;
+  min-width: 1200px; }
 
 .submitBtn {
   background: #222;
@@ -153,13 +158,17 @@ form input[type="text"], form input[type="email"] {
   color: #fff;
   font-size: 12px;
   font-weight: 700;
-  margin-left: 24px;
+  margin: 12px auto;
   padding: 8px 16px;
   text-align: center;
   text-decoration: none; }
   .submitBtn:hover {
     background: #3d3d3d;
     cursor: pointer; }
+
+#resume-main {
+  background: #f3f6f7;
+  padding: 64px 0 40px 0; }
 
 #blog-main {
   background-color: #f3f6f7;
