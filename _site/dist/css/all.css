@@ -142,7 +142,7 @@ code {
 
 #home-main {
   background: #fff;
-  height: 750px;
+  height: 550px;
   margin: auto;
   text-align: center; }
 
@@ -150,9 +150,9 @@ code {
   color: #222;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  font-size: 60px;
+  font-size: 55px;
   margin: auto;
-  padding: 220px 0 16px 0; }
+  padding: 200px 0 16px 0; }
 
 .homepage-btn {
   background: #222;
@@ -216,6 +216,7 @@ form input[type="text"] {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   margin: 0;
+  margin-bottom: 8px;
   margin-right: 12px;
   width: 45%; }
 
@@ -224,6 +225,7 @@ form input[type="email"] {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   margin: 0;
+  margin-bottom: 8px;
   margin-left: 12px;
   width: 45%; }
 
@@ -246,6 +248,8 @@ form textarea {
   .submitBtn:hover {
     background: #3d3d3d;
     cursor: pointer; }
+  .submitBtn:disabled {
+    background: #d6d7d8; }
 
 #resume-main {
   background: #f3f6f7;
