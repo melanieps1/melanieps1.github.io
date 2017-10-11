@@ -64,6 +64,16 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  color: $c-text;
+  display: block;
+  font-family: $f-main, sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+}
+
 p {
   font-family: $f-main, sans-serif;
   font-size: 14px;
@@ -103,6 +113,10 @@ code {
   line-height: 2;
   padding: 8px;
   text-align: left;
+}
+
+.extraPadding {
+  margin-bottom: 170px;
 }
 
 .main {
@@ -250,6 +264,34 @@ code {
   background-color: $c-white;
   height: 100%;
 }
+  
+  .grayPreview {
+    background-color: $c-gray-light;
+    height: 350px;
+    padding: 24px 40px;
+  }
+
+  .grayTitle {
+    text-align: left;
+  }
+
+  .grayPara {
+    text-align: left;
+  }
+
+  .whitePreview {
+    background-color: $c-white;
+    height: 350px;
+    padding: 24px 40px;
+  }
+
+  .whiteTitle {
+    text-align: right;
+  }
+
+  .whitePara {
+    text-align: right;
+  }
 
 #blog-main {
   background-color: $c-bg;
