@@ -126,10 +126,6 @@ ul {
   font-style: italic;
   text-align: left; }
 
-img {
-  display: block;
-  margin: 0 auto; }
-
 a {
   text-decoration: none;
   color: #61baab; }
@@ -197,7 +193,8 @@ code {
   text-align: left; }
 
 #aboutImage {
-  display: inline; }
+  display: inline;
+  margin: 0 auto; }
 
 #contact-main {
   background-color: #fff;
@@ -267,6 +264,10 @@ form textarea {
   background: #f3f6f7;
   padding: 64px 0 40px 0; }
 
+#resume-img {
+  display: block;
+  margin: 0 auto; }
+
 #projects-main {
   background-color: #fff;
   height: 100%; }
@@ -276,22 +277,22 @@ form textarea {
   height: 350px;
   padding: 24px 40px; }
 
-.grayTitle {
-  text-align: left; }
-
-.grayPara {
-  text-align: left; }
-
 .whitePreview {
   background-color: #fff;
   height: 350px;
   padding: 24px 40px; }
 
-.whiteTitle {
-  text-align: right; }
+.projTitle {
+  text-align: left; }
 
-.whitePara {
-  text-align: right; }
+.projPara {
+  margin: 0;
+  text-align: left;
+  width: 50%; }
+
+.projBadge {
+  margin: 12px 12px 8px 0;
+  text-align: left; }
 
 #blog-main {
   background-color: #f3f6f7;

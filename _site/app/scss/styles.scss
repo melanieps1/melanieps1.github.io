@@ -93,11 +93,6 @@ ul {
   text-align: left;
 }
 
-img {
-  display: block;
-  margin: 0 auto;
-}
-
 a {
   text-decoration: none;
   color: $c-link;
@@ -178,6 +173,7 @@ code {
 
   #aboutImage {
     display: inline;
+    margin: 0 auto;
   }
 
 #contact-main {
@@ -260,6 +256,11 @@ code {
   padding: 64px 0 40px 0;
 }
 
+  #resume-img {
+  display: block;
+  margin: 0 auto;
+  }
+
 #projects-main {
   background-color: $c-white;
   height: 100%;
@@ -271,26 +272,25 @@ code {
     padding: 24px 40px;
   }
 
-  .grayTitle {
-    text-align: left;
-  }
-
-  .grayPara {
-    text-align: left;
-  }
-
   .whitePreview {
     background-color: $c-white;
     height: 350px;
     padding: 24px 40px;
   }
 
-  .whiteTitle {
-    text-align: right;
+  .projTitle {
+    text-align: left;
   }
 
-  .whitePara {
-    text-align: right;
+  .projPara {
+    margin: 0;
+    text-align: left;
+    width: 50%;
+  }
+
+  .projBadge {
+    margin: 12px 12px 8px 0;
+    text-align: left;
   }
 
 #blog-main {
