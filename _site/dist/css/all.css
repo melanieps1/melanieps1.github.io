@@ -294,6 +294,21 @@ form textarea {
   margin: 12px 12px 8px 0;
   text-align: left; }
 
+.viewProject {
+  background: #222;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none; }
+  .viewProject:hover {
+    background: #3d3d3d;
+    cursor: pointer; }
+
 #blog-main {
   background-color: #f3f6f7;
   width: 80%;

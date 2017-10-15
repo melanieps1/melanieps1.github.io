@@ -293,6 +293,23 @@ code {
     text-align: left;
   }
 
+  .viewProject {
+  background: $c-text;
+  border: none;
+  border-radius: 2px;
+  color: $c-white;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+    &:hover {
+      background: #3d3d3d;
+      cursor: pointer;
+    }
+  }
+
 #blog-main {
   background-color: $c-bg;
   width: 80%;
