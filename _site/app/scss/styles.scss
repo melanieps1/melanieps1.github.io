@@ -269,6 +269,7 @@ code {
   .grayPreview {
     background-color: $c-gray-light;
     height: 350px;
+    overflow: hidden;
     padding: 24px 40px;
   }
 
@@ -276,6 +277,11 @@ code {
     background-color: $c-white;
     height: 350px;
     padding: 24px 40px;
+  }
+  
+  .projLeft {
+    float: left;
+    width: 50%;
   }
 
   .projTitle {
@@ -308,6 +314,24 @@ code {
       background: #3d3d3d;
       cursor: pointer;
     }
+  }
+
+  .projectImageDiv {
+    float: right;
+    height: 350px;
+    margin-bottom: 0;
+    text-align: center;
+    width: 50%;
+    position: relative;
+  }
+
+  .projImage {
+    box-shadow: 0px 0px 6px rgba(68, 68, 68, 0.6);
+    // Below are parameters to center the image vertically and horizontally
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 
 #blog-main {
