@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Week One - console.log EVERYTHING
+title: Week Three - console.log EVERYTHING
 ---
 
 # {{ page.title }}
