@@ -268,20 +268,21 @@ code {
   
   .grayPreview {
     background-color: $c-gray-light;
-    height: 350px;
+    min-height: 350px;
     overflow: hidden;
     padding: 24px 40px;
   }
 
   .whitePreview {
     background-color: $c-white;
-    height: 350px;
+    min-height: 350px;
     padding: 24px 40px;
   }
   
   .projLeft {
     float: left;
-    width: 50%;
+    margin-right: 24px;
+    width: 60%;
   }
 
   .projTitle {
@@ -291,7 +292,6 @@ code {
   .projPara {
     margin: 0;
     text-align: left;
-    width: 50%;
   }
 
   .projBadge {
@@ -320,13 +320,14 @@ code {
     float: right;
     height: 350px;
     margin-bottom: 0;
+    margin-left: 24px;
     text-align: center;
-    width: 50%;
+    width: 33%;
     position: relative;
   }
 
   .projImage {
-    box-shadow: 0px 0px 6px rgba(68, 68, 68, 0.6);
+    // box-shadow: 0px 1px 6px rgba(68, 68, 68, 0.6);
     // Below are parameters to center the image vertically and horizontally
     left: 50%;
     position: absolute;
