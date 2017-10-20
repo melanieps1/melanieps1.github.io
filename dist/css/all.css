@@ -1,3 +1,23 @@
+#blog-main {
+  background-color: #f3f6f7;
+  width: 80%;
+  margin: auto; }
+
+.blog-list {
+  color: #222;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  list-style-type: none;
+  padding: 0; }
+
+.post-main {
+  background-color: #f3f6f7;
+  margin: 24px; }
+
+.post-main p {
+  margin: 24px;
+  text-align: left; }
+
 .footer {
   background-color: #f27171;
   bottom: 0;
@@ -63,6 +83,68 @@ nav {
 
 .contactLink {
   color: #f27171; }
+
+#projects-main {
+  background-color: #fff;
+  height: 100%; }
+
+.grayPreview {
+  background-color: #f5f5f5;
+  min-height: 350px;
+  overflow: hidden;
+  padding: 24px 40px; }
+
+.whitePreview {
+  background-color: #fff;
+  min-height: 350px;
+  padding: 24px 40px; }
+
+.projLeft {
+  float: left;
+  margin-right: 24px;
+  width: 60%; }
+
+.projTitle {
+  text-align: left; }
+
+.projPara {
+  margin: 0;
+  text-align: left; }
+
+.projBadge {
+  margin: 12px 8px 8px 0;
+  text-align: left; }
+
+.viewProject {
+  background: #222;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  outline: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none; }
+  .viewProject:hover {
+    background: #3d3d3d;
+    cursor: pointer; }
+
+.projectImageDiv {
+  float: right;
+  height: 350px;
+  margin-bottom: 0;
+  margin-left: 24px;
+  text-align: center;
+  width: 33%;
+  position: relative; }
+
+.projImage {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%); }
 
 html {
   height: 100%; }
@@ -268,84 +350,3 @@ form textarea {
 #resume-img {
   display: block;
   margin: 0 auto; }
-
-#projects-main {
-  background-color: #fff;
-  height: 100%; }
-
-.grayPreview {
-  background-color: #f5f5f5;
-  min-height: 350px;
-  overflow: hidden;
-  padding: 24px 40px; }
-
-.whitePreview {
-  background-color: #fff;
-  min-height: 350px;
-  padding: 24px 40px; }
-
-.projLeft {
-  float: left;
-  margin-right: 24px;
-  width: 60%; }
-
-.projTitle {
-  text-align: left; }
-
-.projPara {
-  margin: 0;
-  text-align: left; }
-
-.projBadge {
-  margin: 12px 12px 8px 0;
-  text-align: left; }
-
-.viewProject {
-  background: #222;
-  border: none;
-  border-radius: 2px;
-  color: #fff;
-  font-size: 12px;
-  font-weight: 700;
-  margin-bottom: 24px;
-  padding: 8px 16px;
-  text-align: center;
-  text-decoration: none; }
-  .viewProject:hover {
-    background: #3d3d3d;
-    cursor: pointer; }
-
-.projectImageDiv {
-  float: right;
-  height: 350px;
-  margin-bottom: 0;
-  margin-left: 24px;
-  text-align: center;
-  width: 33%;
-  position: relative; }
-
-.projImage {
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%); }
-
-#blog-main {
-  background-color: #f3f6f7;
-  width: 80%;
-  margin: auto; }
-
-.blog-list {
-  color: #222;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
-  list-style-type: none;
-  padding: 0; }
-
-.post-main {
-  background-color: #f3f6f7;
-  margin: 24px; }
-
-.post-main p {
-  margin: 24px;
-  text-align: left; }

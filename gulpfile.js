@@ -3,9 +3,9 @@ var sass   = require('gulp-sass');
 var concat = require('gulp-concat');
 var del    = require('del');
 
-gulp.task('hello', function() {
-	console.log('Hello there!');
-});
+// gulp.task('hello', function() {
+// 	console.log('Hello there!');
+// });
 
 gulp.task('sass', ['delete'], function () {
 	return gulp.src('app/scss/*.scss')
