@@ -81,11 +81,20 @@ $f-merriweather: "Merriweather";
     position: relative;
   }
 
-  .projImage {
+  .projImagePreview {
     // box-shadow: 0px 1px 6px rgba(68, 68, 68, 0.6);
     // Below are parameters to center the image vertically and horizontally
     left: 50%;
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  .projects-main-gray {
+    background-color: $c-gray-light;
+  }
+
+  .projImage {
+    display: inline-block;
+    margin: auto;
   }

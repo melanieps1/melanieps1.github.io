@@ -1,7 +1,7 @@
 #blog-main {
   background-color: #f3f6f7;
-  width: 80%;
-  margin: auto; }
+  margin-left: 40px;
+  margin-right: 40px; }
 
 .blog-list {
   color: #222;
@@ -140,11 +140,18 @@ nav {
   width: 33%;
   position: relative; }
 
-.projImage {
+.projImagePreview {
   left: 50%;
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%); }
+
+.projects-main-gray {
+  background-color: #f5f5f5; }
+
+.projImage {
+  display: inline-block;
+  margin: auto; }
 
 html {
   height: 100%; }
@@ -196,7 +203,15 @@ h3 {
 p {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
-  max-width: 100%;
+  margin: 24px 40px;
+  text-align: left; }
+
+figure {
+  text-align: center; }
+
+figcaption {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
   text-align: center; }
 
 ul {
@@ -204,6 +219,9 @@ ul {
   font-size: 14px;
   max-width: 100%;
   text-align: left; }
+
+hr {
+  margin: 0 40px; }
 
 .description {
   font-style: italic;
@@ -229,6 +247,7 @@ code {
 .main {
   background: #fff;
   display: block;
+  height: 100%;
   padding: 24px 0; }
 
 #home-main {
@@ -272,8 +291,7 @@ code {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   margin: 24px 40px;
-  max-width: 66%;
-  text-align: left; }
+  max-width: 66%; }
 
 #aboutImage {
   display: inline;
