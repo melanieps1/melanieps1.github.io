@@ -189,6 +189,13 @@ code {
     margin: 0 auto;
   }
 
+@media only screen and (max-width: 1270px) {
+  .aboutPara {
+    float: none;
+    max-width: 100%;
+  }
+}
+
 #contact-main {
   background-color: $c-white;
   margin-bottom: 0;

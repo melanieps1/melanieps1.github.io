@@ -153,6 +153,20 @@ nav {
   display: inline-block;
   margin: auto; }
 
+@media only screen and (max-width: 1000px) {
+  .projectImageDiv {
+    float: none;
+    margin: auto;
+    text-align: center; }
+  .projectImagePreview {
+    left: 0;
+    margin: auto;
+    top: 0; }
+  .projLeft {
+    float: none;
+    margin-right: 0;
+    width: 100%; } }
+
 html {
   height: 100%; }
 
@@ -295,6 +309,11 @@ code {
 #aboutImage {
   display: inline;
   margin: 0 auto; }
+
+@media only screen and (max-width: 1270px) {
+  .aboutPara {
+    float: none;
+    max-width: 100%; } }
 
 #contact-main {
   background-color: #fff;
