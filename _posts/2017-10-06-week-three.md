@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog-layout
 title: Week Three - console.log EVERYTHING
 ---
 

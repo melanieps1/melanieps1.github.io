@@ -33,6 +33,22 @@ $f-merriweather: "Merriweather";
   }
 
   .post-main p {
-    margin: 24px;
     text-align: left;
+  }
+
+.postText {
+  margin: 24px 100px;
+}
+
+  .postText h3 {
+    margin-left: 40px;
+    text-align: left;
+  }
+
+  .blogList li {
+    margin-left: 40px;
+  }
+
+  .postText img {
+    text-align: center;
   }
