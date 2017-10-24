@@ -8,7 +8,6 @@ $c-white: #fff;
 
 //fonts
 $f-main: "Roboto";
-$f-open-sans: "Open Sans";
 $f-merriweather: "Merriweather";
 
 header {
@@ -37,7 +36,7 @@ nav {
 .nav-item {
   color: $c-text;
   float: right;
-  font-family: $f-open-sans, sans-serif;
+  font-family: $f-main, sans-serif;
   font-size: 14px;
   font-weight: bold;
   line-height: 50px;
