@@ -173,7 +173,10 @@ form input[type="text"] {
   margin: 0;
   margin-bottom: 8px;
   margin-right: 12px;
+  outline: none;
   width: 45%; }
+  form input[type="text"]:focus {
+    border: 1px solid #42b3c4; }
 
 form input[type="email"] {
   color: #222;
@@ -182,12 +185,21 @@ form input[type="email"] {
   margin: 0;
   margin-bottom: 8px;
   margin-left: 12px;
+  outline: none;
   width: 45%; }
+  form input[type="email"]:focus {
+    border: 1px solid #42b3c4; }
 
 form textarea {
+  color: #222;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
   height: 150px;
   margin: auto;
-  min-width: 91%; }
+  min-width: 91%;
+  outline: none; }
+  form textarea:focus {
+    border: 1px solid #42b3c4; }
 
 .submitBtn {
   background: #222;
