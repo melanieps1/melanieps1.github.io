@@ -130,7 +130,7 @@ code {
 .main {
   background: $c-white;
   display: block;
-  height: 100%;
+  // height: 100%; (THIS BREAKS THE FOOTER)
   padding: 24px 0;
 }
 
