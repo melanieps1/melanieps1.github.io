@@ -195,8 +195,9 @@ form textarea {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   height: 150px;
-  margin: auto;
-  min-width: 91%;
+  margin-left: 50px;
+  margin-right: 50px;
+  min-width: 92%;
   outline: none; }
   form textarea:focus {
     border: 1px solid #42b3c4; }

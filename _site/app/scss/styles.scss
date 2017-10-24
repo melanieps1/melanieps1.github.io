@@ -251,8 +251,9 @@ code {
     font-family: $f-main, sans-serif;
     font-size: 14px;
     height: 150px;
-    margin: auto;
-    min-width: 91%;
+    margin-left: 50px;
+    margin-right: 50px;
+    min-width: 92%;
     outline: none;
     &:focus {
       border: 1px solid $c-accent2;
