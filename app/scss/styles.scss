@@ -177,11 +177,9 @@ code {
 }
 
   .aboutPara {
-    float: left;
     font-family: $f-main, sans-serif;
     font-size: 14px;
     margin: 24px 40px;
-    max-width: 66%;
   }
 
   #aboutImage {
@@ -189,10 +187,20 @@ code {
     margin: 0 auto;
   }
 
-@media only screen and (max-width: 1270px) {
-  .aboutPara {
+  .aboutParaDiv {
+    float: left;
+    margin-right: 24px;
+    width: 66%;
+  }
+
+  .aboutImageDiv {
+    margin-right: 40px;
+  }
+
+@media only screen and (max-width: 1000px) {
+  .aboutParaDiv {
     float: none;
-    max-width: 100%;
+    width: 100%;
   }
 }
 
