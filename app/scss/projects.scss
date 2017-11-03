@@ -14,12 +14,7 @@ $f-main: "Roboto";
 $f-merriweather: "Merriweather";
 
 
-#projects-main {
-  background-color: $c-white;
-  height: 100%;
-}
-  
-  .grayPreview {
+.grayPreview {
     background-color: $c-gray-light;
     min-height: 350px;
     overflow: hidden;

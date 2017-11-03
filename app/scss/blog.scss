@@ -13,31 +13,48 @@ $c-white: #fff;
 $f-main: "Roboto";
 $f-merriweather: "Merriweather";
 
-#blog-main {
-  background-color: $c-bg;
-  margin-left: 40px;
-  margin-right: 40px;
+.main-title {
+    background-color: $c-white;
+  }
+
+.extraPadding {
+  background-color: $c-white;
+  margin-bottom: 170px;
 }
 
-  .blog-list {
-    color: $c-text;
-    font-family: $f-main, sans-serif;
-    font-size: 14px;
-    list-style-type: none;
-    padding: 0;
-  }
+.grayPreview {
+  background-color: $c-gray-light;
+  padding: 24px 40px;
+  position: absolute;
+  width: 100%;
+}
 
-  .post-main {
-    background-color: $c-bg;
-    margin: 24px;
-  }
+.description, .blogList {
+  margin: 0 auto;
+  width: 1200px;
+}
 
-  .post-main p {
-    text-align: left;
-  }
+.blogPosts {
+  color: $c-text;
+  font-family: $f-main, sans-serif;
+  font-size: 14px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.post-main {
+  background-color: $c-bg;
+  margin: 24px;
+}
+
+.post-main p {
+  text-align: left;
+}
 
 .postText {
-  margin: 24px 100px;
+  margin: 24px auto;
+  padding: 0 40px;
+  width: 1200px;
 }
 
   .postText h3 {

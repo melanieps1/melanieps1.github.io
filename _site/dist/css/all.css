@@ -1,9 +1,21 @@
-#blog-main {
-  background-color: #f3f6f7;
-  margin-left: 40px;
-  margin-right: 40px; }
+.main-title {
+  background-color: #fff; }
 
-.blog-list {
+.extraPadding {
+  background-color: #fff;
+  margin-bottom: 170px; }
+
+.grayPreview {
+  background-color: #f5f5f5;
+  padding: 24px 40px;
+  position: absolute;
+  width: 100%; }
+
+.description, .blogList {
+  margin: 0 auto;
+  width: 1200px; }
+
+.blogPosts {
   color: #222;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -18,7 +30,9 @@
   text-align: left; }
 
 .postText {
-  margin: 24px 100px; }
+  margin: 24px auto;
+  padding: 0 40px;
+  width: 1200px; }
 
 .postText h3 {
   margin-left: 40px;
@@ -95,10 +109,6 @@ nav {
 
 .contactLink {
   color: #f27171; }
-
-#projects-main {
-  background-color: #fff;
-  height: 100%; }
 
 .grayPreview {
   background-color: #f5f5f5;
