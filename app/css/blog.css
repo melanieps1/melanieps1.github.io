@@ -11,9 +11,13 @@
   position: absolute;
   width: 100%; }
 
-.description, .blogList {
+.blogList {
   margin: 0 auto;
-  width: 1200px; }
+  width: 60%; }
+
+@media only screen and (max-width: 650px) {
+  .blogList {
+    width: 80%; } }
 
 .blogPosts {
   color: #222;
@@ -32,7 +36,7 @@
 .postText {
   margin: 24px auto;
   padding: 0 40px;
-  width: 1200px; }
+  width: 60%; }
 
 .postText h3 {
   margin-left: 40px;
